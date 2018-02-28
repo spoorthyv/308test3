@@ -3,9 +3,9 @@ sudo: false
 install: true
 addons:
   sonarcloud:
-    organization: "your_organization_key"
+    organization: "spoorthyv-github"
     token:
-      secure: "your_token_encrypted_with_travis_encrypt_tool"
+      secure: "ad566dd5a3a33a8bf7ea2b3f9b17815c0f58af54"
 jdk:
   - oraclejdk8
 script:
